@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: #2F2E41;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page {
+    width: 1090px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 64px;
+}
+
+ul, h1, footer {
+    font-family: 'JetBrains Mono', sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+
+section {
+    display: block;
+    width: 615px;
+}
+
+span {
+    color: #00BFA6;
+}
+
+section h1 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 auto 50px;
+    top: 0;
+}
+
+section p {
+    width: 614px;
+    line-height: 28px;
+    margin: 20px auto;
+    font-size: 16px;
+    color: #c2c2c2;
+    text-align: center;
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.line {
+    width: 570px;
+    height: 0;
+    margin: 40px auto;
+    border: 1px;
+    border-style: solid;
+    color: #00BFA6;
+}
+
+footer a {
+    text-decoration: underline; /* Achei que seria uma melhor pratica de UX 
+                                deixar esse link diferente do resto do texto no footer,
+                                para deixar mais evidente que se trata de um link */
+}
+
+#locker {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
